@@ -1,0 +1,41 @@
+# model=Qwen/Qwen2.5-1.5B-Instruct
+============================================================
+Q: 에펠탑은 올해(2026년) 기준 몇 년 됐어?
+[1] Thought: 2026년과 에펠탑 건축일을 비교하면 된다.
+    Action: (형식 오류)
+    Observation: 오류: 'Action: 도구[입력]' 형식을 찾지 못했습니다. 형식을 지켜 다시 출력하세요.
+    --- raw ---
+      | Thought: 2026년과 에펠탑 건축일을 비교하면 된다.
+      | Action: search
+[2] Thought: 에펠탐의 건축일을 찾아야 한다.
+    Action: (형식 오류)
+    Observation: 오류: 'Action: 도구[입력]' 형식을 찾지 못했습니다. 형식을 지켜 다시 출력하세요.
+    --- raw ---
+      | Thought: 에펠탐의 건축일을 찾아야 한다.
+      | Action: search
+[3] Thought: 2026년과 에펠탐 건축일을 비교하여 현재까지 얼마나 지났는지를 계산해야 한다.
+    Action: (형식 오류)
+    Observation: 오류: 'Action: 도구[입력]' 형식을 찾지 못했습니다. 형식을 지켜 다시 출력하세요.
+    --- raw ---
+      | Thought: 2026년과 에펠탐 건축일을 비교하여 현재까지 얼마나 지났는지를 계산해야 한다.
+      | Action: calculate
+[4] Thought: 2026년과 에펠탐 건축일 사이의 차이를 계산하면 된다.
+    Action: (형식 오류)
+    Observation: 오류: 'Action: 도구[입력]' 형식을 찾지 못했습니다. 형식을 지켜 다시 출력하세요.
+    --- raw ---
+      | Thought: 2026년과 에펠탐 건축일 사이의 차이를 계산하면 된다.
+      | Action: calculate
+[5] Thought: 2026년과 에펠탐 건축일 사이의 차이를 계산하면 된다.
+    Action: (형식 오류)
+    Observation: 오류: 'Action: 도구[입력]' 형식을 찾지 못했습니다. 형식을 지켜 다시 출력하세요.
+    --- raw ---
+      | Thought: 2026년과 에펠탐 건축일 사이의 차이를 계산하면 된다.
+      | Action: calculate
+[6] Thought: 2026년과 에펠탐 건축일 사이의 차이를 계산하면 된다.
+    Action: (형식 오류)
+    Observation: 오류: 'Action: 도구[입력]' 형식을 찾지 못했습니다. 형식을 지켜 다시 출력하세요.
+    --- raw ---
+      | Thought: 2026년과 에펠탐 건축일 사이의 차이를 계산하면 된다.
+      | Action: calculate
+==> 최종 답 확정 실패 (형식 오류 반복 또는 max_steps 도달)
+[형식 오류 6회]
